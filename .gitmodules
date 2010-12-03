@@ -4,3 +4,6 @@
 [submodule "bundle/git-vim"]
 	path = bundle/git-vim
 	url = https://github.com/motemen/git-vim.git
+[submodule "bundle/nerdcommenter"]
+	path = bundle/nerdcommenter
+	url = https://github.com/scrooloose/nerdcommenter.git
