@@ -69,7 +69,8 @@ set autoindent
 set gfn=Misc\ Fixed\ 11
 
 if has("gui_running")
-    colorscheme darkblue2
+    "colorscheme darkblue2
+    colorscheme tabula
 else
     colorscheme relaxedgreen
     "murphy
