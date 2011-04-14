@@ -52,3 +52,6 @@
 [submodule "bundle/tabular"]
 	path = bundle/tabular
 	url = https://github.com/godlygeek/tabular.git
+[submodule "bundle/apidock.vim"]
+	path = bundle/apidock.vim
+	url = https://github.com/alexandrov/apidock.vim.git
