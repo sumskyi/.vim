@@ -55,3 +55,6 @@
 [submodule "bundle/apidock.vim"]
 	path = bundle/apidock.vim
 	url = https://github.com/alexandrov/apidock.vim.git
+[submodule "bundle/vim-padrino"]
+	path = bundle/vim-padrino
+	url = https://github.com/gerardc/vim-padrino.git
