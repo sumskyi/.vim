@@ -96,19 +96,14 @@ autocmd FileType ruby,eruby let g:rubycomplete_classes_in_global = 1
 autocmd FileType php set omnifunc=phpcomplete#CompletePHP shiftwidth=4 softtabstop=4 tabstop=4
 autocmd FileType javascript set shiftwidth=4 softtabstop=4 tabstop=4 smarttab
 
+au BufNewFile,BufRead *.rabl set filetype=ruby
+
 
 :se nu
 
 set modeline
 set modelines=5
 
-let g:browser = 'firefox -new-tab '
-" Open the Ruby ApiDock page for the word under cursor, in a new Firefox tab
-function! OpenRubyDoc(keyword)
-	let url = 'http://apidock.com/ruby/'.a:keyword
-	exec '!'.g:browser.' '.url.' &'
-endfunction
-noremap RB :call OpenRubyDoc(expand('<cword>'))<CR>
 
 set ignorecase
 set smartcase
@@ -143,3 +138,7 @@ set listchars=tab:▷⋅,trail:⋅,nbsp:⋅
 set wildmode=list:longest   "make cmdline tab completion similar to bash
 set wildmenu                "enable ctrl-n and ctrl-p to scroll thru matches
 set wildignore=*.o,*.obj,*~ "stuff to ignore when tab completing
+
+set foldmethod=syntax
+set nofoldenable
+
