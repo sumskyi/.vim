@@ -97,6 +97,7 @@ autocmd FileType php set omnifunc=phpcomplete#CompletePHP shiftwidth=4 softtabst
 autocmd FileType javascript set shiftwidth=4 softtabstop=4 tabstop=4 smarttab
 
 au BufNewFile,BufRead *.rabl set filetype=ruby
+au BufNewFile,BufRead *.yajl set filetype=ruby
 
 
 :se nu
