@@ -70,7 +70,9 @@ set gfn=Misc\ Fixed\ 11
 
 if has("gui_running")
     "colorscheme darkblue2
-    colorscheme tabula
+    "colorscheme tabula
+    set background=dark
+    colorscheme solarized
 else
     colorscheme relaxedgreen
     "murphy
