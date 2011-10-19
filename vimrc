@@ -123,6 +123,7 @@ inoremap <C-L> <C-O>:nohls<CR>
 nnoremap <c-p> :NERDTreeToggle<CR>
 nnoremap <c-f> :FufFile<CR>
 nnoremap <c-b> :FufBuffer<CR>
+nnoremap <c-t> :FufTaggedFile<CR>
 
 lang en_US.UTF-8
 
