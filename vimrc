@@ -134,6 +134,7 @@ set t_vb=
 :nnoremap <silent> <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR>
 
 let g:syntastic_enable_signs=1
+let g:rails_menu=1
 
 "display tabs and trailing spaces
 set list
