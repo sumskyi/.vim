@@ -100,8 +100,8 @@ autocmd FileType javascript set shiftwidth=4 softtabstop=4 tabstop=4 smarttab
 
 au BufNewFile,BufRead *.rabl set filetype=ruby
 au BufNewFile,BufRead *.yajl set filetype=ruby
-au BufNewFile,BufRead *_spec.rb setlocal filetype=ruby-rspec.ruby syntax=ruby
 au BufNewFile,BufRead *.rb setlocal filetype=ruby-rails.ruby syntax=ruby
+au BufNewFile,BufRead *_spec.rb setlocal filetype=ruby-rspec.ruby syntax=ruby
 
 :se nu
 
@@ -148,3 +148,4 @@ set wildignore=*.o,*.obj,*~ "stuff to ignore when tab completing
 set foldmethod=syntax
 set nofoldenable
 
+set colorcolumn=80
