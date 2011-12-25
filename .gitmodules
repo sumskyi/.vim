@@ -67,6 +67,3 @@
 [submodule "bundle/tlib_vim"]
 	path = bundle/tlib_vim
 	url = git://github.com/tomtom/tlib_vim.git
-[submodule "bundle/bubblegum"]
-	path = bundle/bubblegum
-	url = git://github.com/baskerville/bubblegum.git
