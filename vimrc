@@ -148,3 +148,4 @@ set wildignore=*.o,*.obj,*~ "stuff to ignore when tab completing
 set foldmethod=syntax
 set nofoldenable
 
+set colorcolumn=80
