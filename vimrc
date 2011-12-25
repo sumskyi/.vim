@@ -72,7 +72,8 @@ if has("gui_running")
     "colorscheme darkblue2
     "colorscheme tabula
     set background=dark
-    colorscheme solarized
+    "colorscheme solarized
+    colorscheme bubblegum
 else
     colorscheme relaxedgreen
     "murphy
