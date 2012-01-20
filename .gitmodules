@@ -4,12 +4,6 @@
 [submodule "bundle/git-vim"]
 	path = bundle/git-vim
 	url = https://github.com/motemen/git-vim.git
-[submodule "bundle/nerdcommenter"]
-	path = bundle/nerdcommenter
-	url = https://github.com/scrooloose/nerdcommenter.git
-[submodule "bundle/nerdtree"]
-	path = bundle/nerdtree
-	url = https://github.com/scrooloose/nerdtree.git
 [submodule "bundle/rvm.vim"]
 	path = bundle/rvm.vim
 	url = https://github.com/csexton/rvm.vim.git
@@ -49,24 +43,12 @@
 [submodule "bundle/vim-padrino"]
 	path = bundle/vim-padrino
 	url = https://github.com/gerardc/vim-padrino.git
-[submodule "bundle/vim-colors-solarized"]
-	path = bundle/vim-colors-solarized
-	url = git://github.com/altercation/vim-colors-solarized.git
-[submodule "bundle/vim-snipmate"]
-	path = bundle/vim-snipmate
-	url = git://github.com/garbas/vim-snipmate.git
-[submodule "bundle/snipmate-snippets"]
-	path = bundle/snipmate-snippets
-	url = git://github.com/sumskyi/snipmate-snippets.git
-[submodule "bundle/vim-addon-mw-utils"]
-	path = bundle/vim-addon-mw-utils
-	url = git://github.com/MarcWeber/vim-addon-mw-utils.git
-[submodule "bundle/tlib_vim"]
-	path = bundle/tlib_vim
-	url = git://github.com/tomtom/tlib_vim.git
 [submodule "bundle/apidock.vim"]
 	path = bundle/apidock.vim
 	url = https://github.com/vim-scripts/apidock.vim.git
 [submodule "bundle/vim-coffee-script"]
 	path = bundle/vim-coffee-script
 	url = https://github.com/kchmck/vim-coffee-script.git
+[submodule "bundle/nerdcommenter"]
+	path = bundle/nerdcommenter
+	url = https://github.com/scrooloose/nerdcommenter.git
